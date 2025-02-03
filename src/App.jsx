@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './Comopents/Navbar'
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { marked } from "marked"; 
-import './App.css'
+
 
 const App = () => {
   const [promt , setpromt] = useState('');
